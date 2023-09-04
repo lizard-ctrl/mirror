@@ -1,0 +1,137 @@
+body {
+    background-image: url(assets/01-50-57-636_512.webp);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#rawr1{
+    position: absolute;
+    width: 15%;
+    height: 35%;
+    border: red 2px;
+    left: 15%;
+    top: 10%;
+
+    overflow: hidden;
+    animation: mirror1 10s linear infinite;
+}
+
+
+@keyframes mirror1 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(calc(20vh - 100px));
+    }
+  }
+
+#image1 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; /* Remove extra space reserved for descenders in text */
+    margin: 0 auto; /* Center the image horizontally within the div */
+  }
+
+  #rawr2{
+    position: absolute;
+    width: 15%;
+    height: 35%;
+    border: red 2px;
+    left: 32%;
+    top: 15%;
+   
+    overflow: hidden;
+    animation: mirror3 10s linear infinite;
+}
+
+@keyframes mirror2 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(calc(40vh - 100px));
+    }
+  }
+
+#image2 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; /* Remove extra space reserved for descenders in text */
+    margin: 0 auto; /* Center the image horizontally within the div */
+  }
+
+  #rawr3{
+    position: absolute;
+    width: 15%;
+    height: 35%;
+    border: red 2px;
+    left: 55%;
+    top: 5%;
+  
+    overflow: hidden;
+    animation: mirror1 10s linear infinite;
+}
+@keyframes mirror3 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(calc(30vh - 100px));
+    }
+  }
+
+#image3 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; /* Remove extra space reserved for descenders in text */
+    margin: 0 auto; /* Center the image horizontally within the div */
+  }
+
+  #rawr4{
+    position: absolute;
+    width: 15%;
+    height: 35%;
+    border: red 2px;
+    left: 70%;
+    top: 8%;
+ 
+    animation: mirror4 10s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes mirror4 {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(calc(50vh - 100px));
+    }
+  }
+
+#image4 {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; /* Remove extra space reserved for descenders in text */
+    margin: 0 auto; /* Center the image horizontally within the div */
+  }
+
+pre{
+    color: white;
+}
